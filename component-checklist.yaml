@@ -26,7 +26,7 @@ Ops:
     Centralized Logs
     Log Retention Policy
     Types:
-      App Logs
+      App Logs:
         - Controller
         - Poller
       Server Access Logs (API)
@@ -35,7 +35,7 @@ Ops:
     Centralized Metrics
     Metric Retention Policy
     Types:
-      App Metrics
+      App Metrics:
         - Errors
       Host Metrics
       ELB Metrics
