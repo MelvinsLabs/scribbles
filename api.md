@@ -22,8 +22,8 @@ API AuthN can be done by different mechanisms -
 
 ### ClientId + ClientSecret
 
-  * In this mechanism, each Client is tracked by a unique ClientId.
-  * Each ClientId is tagged with a ClientSecret.
+  * In this mechanism, each Client is provided by a unique ClientId, along with a ClientSecret.
+  * Each ClientId is used to identity the Client.
   * ClientId & ClientSecret is passed as a Basic Authorization Request Header, over HTTPS.
   * ClientId & ClientSecret is saved at the server-side in a Hashed manner to prevent accidental exposure of all API Keys, in case the server database is compromised.
   * ClientId can be used for Rate Limiting.
