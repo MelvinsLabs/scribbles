@@ -1,53 +1,53 @@
 GitOps:
-  - Repo Setup
-  - App Source Code
-  - Scripts
-  - Pipelines
-  - Dashboards
-  - Alarms
-  - Docs
+  Repo Setup
+  App Source Code
+  Scripts
+  Pipelines
+  Dashboards
+  Alarms
+  Docs
   Notifications (Slack):
     - Merge Requests
 CI/CD:
-  - Automated Build Trigger
-  - Baseline Versioning + Tagging Version To Commit
-  - Automated Deployment (master Branch)
-  - Manual Deployment (any Baseline Version)
+  Automated Build Trigger
+  Baseline Versioning + Tagging Version To Commit
+  Automated Deployment (master Branch)
+  Manual Deployment (any Baseline Version)
   Notifications (Slack):
     - Baseline Version
     - Environment Deployments
   Artifacts + Retention Policy:
-    - Artifact Repository (Nexus)
-    - Container Image Registry (ECR)
-    - App Bundle Versions (Beanstalk)
-  - Release Log (Service Now)
+    Artifact Repository (Nexus)
+    Container Image Registry (ECR)
+    App Bundle Versions (Beanstalk)
+  Release Log (Service Now)
 Ops:
   Logs:
-    - Centralized Logs
-    - Log Retention Policy
+    Centralized Logs
+    Log Retention Policy
     Types:
-      - App Logs
+      App Logs
         - Controller
         - Poller
-      - Server Access Logs (API)
-      - LB Access Logs (API)
+      Server Access Logs (API)
+      LB Access Logs (API)
   Metrics:
-    - Centralized Metrics
-    - Metric Retention Policy
+    Centralized Metrics
+    Metric Retention Policy
     Types:
-      - App Metrics
+      App Metrics
         - Errors
-      - Host Metrics
-      - ELB Metrics
+      Host Metrics
+      ELB Metrics
   Dashboards:
-    - Logs
-    - Metrics
+    Logs
+    Metrics
   Alarms:
-    - Alerts
-    - Warnings
-    - Notifications
+    Alerts
+    Warnings
+    Notifications
 Security:
-  - Secrets
+  Secrets
 Resource Tagging:
-  - app-name
-  - <env>-app-name
+  app-name
+  <env>-app-name
